@@ -1,6 +1,6 @@
 <?php
 require_once('UserClass.php');
-require_once('connectdb.php');
+require_once('../../connectdb.php');
 class UserService{
     private $db;
     //Goi database

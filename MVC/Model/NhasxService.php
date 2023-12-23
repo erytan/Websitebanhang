@@ -1,6 +1,6 @@
 <?php 
 require_once("NhasxClass.php");
-require_once("connectdb.php");
+require_once("../../connectdb.php");
 class NhasxService{
     private $dbcollectNhasx;
     public function __construct(){

@@ -1,6 +1,6 @@
 <?php
 require_once("LoaiSPClass.php");
-require_once("connectdb.php");
+require_once("../../connectdb.php");
 class LoaiSPService{
     private $dbcollectLSP;
     public function __construct() {

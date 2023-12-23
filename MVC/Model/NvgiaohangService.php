@@ -1,6 +1,6 @@
 <?php 
 require_once("NvgiaohangClass.php");
-require_once("connectdb.php");
+require_once("../../connectdb.php");
 class NvgiaohangService{
     private $dbcollectNvgh;
     public function __construct(){

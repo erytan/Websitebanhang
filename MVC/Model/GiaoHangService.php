@@ -1,6 +1,6 @@
 <?php 
 require_once("GiaoHangClass.php");
-require_once("connectdb.php");
+require_once("../../connectdb.php");
 class GiaoHangService{
     private $dbcollectGH;
     public function __construct(){

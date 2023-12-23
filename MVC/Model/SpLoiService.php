@@ -1,6 +1,6 @@
 <?php 
 require_once("SpLoiClass.php");
-require_once("connectdb.php");
+require_once("../../connectdb.php");
 class SpLoiService {
     private $dbcollectSpLoi;
     public function __construct(){
