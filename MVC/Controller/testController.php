@@ -13,7 +13,7 @@ include('../Model/ProductService.php');
 include('../Model/BillService.php');
 //include('../Model/SploiClass.php');
 //include('../Model/SpLoiService.php');
-class productController
+public static function productController
 {
     //public $productService;
     //public $billService;
