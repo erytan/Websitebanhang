@@ -17,12 +17,11 @@ class productController
 {
     public $productService;
     public $billService;
-    public $SpLoiService;
     public function __construct()
     {
         $this->productService = new ProductService();
         $this->billService = new BillService();
-        $this->SpLoiService = new SpLoiService();
+        
     }
     public function getAllProductIndex()
     {
