@@ -8,7 +8,7 @@ include  ('../../vendor/phpmailer/src/PHPMailer.php');
 include  ('../../vendor/phpmailer/src/SMTP.php');
 
 //require_once('../Model/ProductClass.php');
-include ('../Model/ProductService.php');
+include ('../../MVC/Model/ProductService.php');
 //require_once('../Model/BillClass.php');
 //include ('../Model/BillService.php');
 
