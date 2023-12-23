@@ -15,8 +15,8 @@ include('../Model/BillService.php');
 //include('../Model/SpLoiService.php');
 class productController
 {
-    public $productService;
-    public $billService;
+    //public $productService;
+    //public $billService;
     // public function __construct()
     // {
     //     $this->productService = new ProductService();
@@ -28,5 +28,6 @@ class productController
     //     $result_List =   $this->productService->getAllProduct();
     //     include("../Views/index.php");
     // }
+    echo 'wtf'
 }
 ?>
