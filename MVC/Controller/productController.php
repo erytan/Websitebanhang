@@ -11,8 +11,6 @@ include  ('../../vendor/phpmailer/src/SMTP.php');
 include ('../Model/ProductService.php');
 //require_once('../Model/BillClass.php');
 include ('../Model/BillService.php');
-//require_once('../Model/SploiClass.php');
-include ('../Model/SpLoiService.php');
 
 
 class productController
