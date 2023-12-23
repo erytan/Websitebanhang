@@ -1,7 +1,7 @@
 <?php
 //terminal:composer require mongodb/mongodb 
 // error use :composer update --ignore-platform-reqs
-require_once __DIR__ . "/vendor/autoload.php";
+include __DIR__ . "/vendor/autoload.php";
 use Dotenv\Dotenv as Dotenv;
 
 session_start();
