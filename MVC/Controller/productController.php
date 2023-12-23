@@ -3,16 +3,16 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require ('../../vendor/phpmailer/src/Exception.php');
-require ('../../vendor/phpmailer/src/PHPMailer.php');
-require ('../../vendor/phpmailer/src/SMTP.php');
+include  ('../../vendor/phpmailer/src/Exception.php');
+include  ('../../vendor/phpmailer/src/PHPMailer.php');
+include  ('../../vendor/phpmailer/src/SMTP.php');
 
 //require_once('../Model/ProductClass.php');
-require_once('../Model/ProductService.php');
+include ('../Model/ProductService.php');
 //require_once('../Model/BillClass.php');
-require_once('../Model/BillService.php');
+include ('../Model/BillService.php');
 //require_once('../Model/SploiClass.php');
-require_once('../Model/SpLoiService.php');
+include ('../Model/SpLoiService.php');
 
 
 class productController
