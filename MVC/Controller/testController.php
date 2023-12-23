@@ -10,8 +10,23 @@ include ('../../vendor/phpmailer/src/SMTP.php');
 //include('../Model/ProductClass.php');
 include('../Model/ProductService.php');
 //include('../Model/BillClass.php');
-//include('../Model/BillService.php');
+include('../Model/BillService.php');
 //include('../Model/SploiClass.php');
 //include('../Model/SpLoiService.php');
-echo 'hehe'
+class productController
+{
+    public $productService;
+    public $billService;
+    public function __construct()
+    {
+        $this->productService = new ProductService();
+        $this->billService = new BillService();
+        
+    }
+    public function getAllProductIndex()
+    {
+        $result_List =   $this->productService->getAllProduct();
+        include("../Views/index.php");
+    }
+}
 ?>
