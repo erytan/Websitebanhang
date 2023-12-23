@@ -2,12 +2,17 @@
 //terminal:composer require mongodb/mongodb 
 // error use :composer update --ignore-platform-reqs
 require_once __DIR__ . "/vendor/autoload.php";
+use Dotenv\Dotenv as Dotenv;
+
 session_start();
 
 // connect to MongoDB
+$Websitebanhang= Dotenv::createImmutable(__DIR__ . '');
+$Websitebanhang->load();
 function Getmongodb($namedb, $namecollection)
 {
-    $client = new MongoDB\Client("mongodb+srv://soemnho1695:soemnho1695@uocgiconguoiyeu.hyo2mgk.mongodb.net/");
+   
+    $client = new MongoDB\Client($_ENV['MONG_DB']);
 
     // select a database
     $database = $client->selectDatabase($namedb);

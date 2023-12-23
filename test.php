@@ -1,11 +1,13 @@
-<?php
+<!-- <?php
 //terminal:composer require mongodb/mongodb 
 // error use :composer update --ignore-platform-reqs
+
 require_once __DIR__ . "/vendor/autoload.php";
-
+use Dotenv\Dotenv as Dotenv;
+$Websitebanhang= Dotenv::createImmutable(__DIR__ . '');
+$Websitebanhang->load();
 // connect to MongoDB
-
-$client = new MongoDB\Client("mongodb+srv://soemnho1695:soemnho1695@uocgiconguoiyeu.hyo2mgk.mongodb.net/");
+$client = new MongoDB\Client($_ENV['MONG_DB']);
 
 // select a database
 $database = $client->selectDatabase('QuanLyBanDienTu');
@@ -38,4 +40,4 @@ if (in_array($er, $products)) {
 }
 print_r($products);
 print_r($er);
-?>
+?> -->
