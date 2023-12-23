@@ -10,7 +10,7 @@ include  ('../../vendor/phpmailer/src/SMTP.php');
 //require_once('../Model/ProductClass.php');
 include ('../Model/ProductService.php');
 //require_once('../Model/BillClass.php');
-include ('../Model/BillService.php');
+//include ('../Model/BillService.php');
 
 
 class productController
