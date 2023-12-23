@@ -1,7 +1,7 @@
 <?php
-require_once('ProductClass.php');
-require_once('ProductImage.php');
-require_once('../../connectdb.php');
+include ('ProductClass.php');
+include('ProductImage.php');
+include('../../connectdb.php');
 
 class ProductService{
     private $dbcollectProduct;
