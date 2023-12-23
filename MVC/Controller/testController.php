@@ -10,8 +10,8 @@ include ('../../vendor/phpmailer/src/SMTP.php');
 //include('../Model/ProductClass.php');
 include('../Model/ProductService.php');
 //include('../Model/BillClass.php');
-include('../Model/BillService.php');
+//include('../Model/BillService.php');
 //include('../Model/SploiClass.php');
-include('../Model/SpLoiService.php');
+//include('../Model/SpLoiService.php');
 echo 'hehe'
 ?>
