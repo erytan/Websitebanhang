@@ -4,14 +4,14 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 include ('../../vendor/phpmailer/src/Exception.php');
-//require ('../../vendor/phpmailer/src/PHPMailer.php');
-//require ('../../vendor/phpmailer/src/SMTP.php');
+include ('../../vendor/phpmailer/src/PHPMailer.php');
+include ('../../vendor/phpmailer/src/SMTP.php');
 
-//require_once('../Model/ProductClass.php');
-//require_once('../Model/ProductService.php');
-//require_once('../Model/BillClass.php');
-//require_once('../Model/BillService.php');
-//require_once('../Model/SploiClass.php');
-//require_once('../Model/SpLoiService.php');
+include('../Model/ProductClass.php');
+include('../Model/ProductService.php');
+include('../Model/BillClass.php');
+include('../Model/BillService.php');
+include('../Model/SploiClass.php');
+include('../Model/SpLoiService.php');
 echo 'hehe'
 ?>
