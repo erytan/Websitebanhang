@@ -17,16 +17,16 @@ class productController
 {
     public $productService;
     public $billService;
-    public function __construct()
-    {
-        $this->productService = new ProductService();
-        $this->billService = new BillService();
+    // public function __construct()
+    // {
+    //     $this->productService = new ProductService();
+    //     $this->billService = new BillService();
         
-    }
-    public function getAllProductIndex()
-    {
-        $result_List =   $this->productService->getAllProduct();
-        include("../Views/index.php");
-    }
+    // }
+    // public function getAllProductIndex()
+    // {
+    //     $result_List =   $this->productService->getAllProduct();
+    //     include("../Views/index.php");
+    // }
 }
 ?>
