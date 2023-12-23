@@ -1,7 +1,7 @@
 <?php
-require_once('BillClass.php');
-require_once('BillDetailClass.php');
-require_once('../../connectdb.php');
+include('BillClass.php');
+include('BillDetailClass.php');
+include('../../connectdb.php');
 Class   BillService{
     private  $dbcollectionproduct;
     private  $dbcollectionbill;
