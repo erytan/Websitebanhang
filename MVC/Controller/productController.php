@@ -8,11 +8,11 @@ include  ('../../vendor/phpmailer/src/PHPMailer.php');
 include  ('../../vendor/phpmailer/src/SMTP.php');
 
 //require_once('../Model/ProductClass.php');
-//include ('../Model/ProductService.php');
+include ('../Model/ProductService.php');
 //require_once('../Model/BillClass.php');
-//include ('../Model/BillService.php');
+include ('../Model/BillService.php');
 //require_once('../Model/SploiClass.php');
-//include ('../Model/SpLoiService.php');
+include ('../Model/SpLoiService.php');
 
 
 class productController
